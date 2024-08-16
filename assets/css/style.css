@@ -1,0 +1,32 @@
+/* GENERAL */
+body{
+    background-color: black; 
+    color:white;
+}
+
+
+header{
+    background-color: aqua; 
+    color: black;
+}
+
+/* EJEMPLOS */
+
+.ejemplo1{
+    border: 2px solid springgreen;
+    margin: 20px;
+    padding: 40px; background-color: antiquewhite; 
+    color: black;
+}   
+
+.ejemplo2{
+    border: 20px dotted blue
+}   
+
+.ejemplo3{
+    border: 5px dashed violet
+}  
+
+.ejemplo4{
+    border: 20px double white
+}  
