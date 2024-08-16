@@ -1,32 +1,49 @@
-/* GENERAL */
-body{
-    background-color: black; 
-    color:white;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-
-header{
-    background-color: aqua; 
-    color: black;
+.foto_header{
+    align-items: center;
+    display: flex;
+    width: 100%;  
 }
 
-/* EJEMPLOS */
+.dacad{
+    background-color: #807d7d;
 
-.ejemplo1{
-    border: 2px solid springgreen;
-    margin: 20px;
-    padding: 40px; background-color: antiquewhite; 
+}
+
+.columna_red {
+    background-color: #edcf37;
     color: black;
-}   
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 
-.ejemplo2{
-    border: 20px dotted blue
-}   
-
-.ejemplo3{
-    border: 5px dashed violet
-}  
-
-.ejemplo4{
-    border: 20px double white
-}  
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center; 
+}
+.footer .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer img {
+    width:80px;
+    height:80px
+}
+@media (min-width: 768px) {
+    .footer .col {
+        margin-bottom: 0;
+    }
+}
+.alineacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
